@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="PT-BR">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" 
+rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Sorteio</title>
+</head>
+
+<body>
+
+    <img class="img-logo" src="./assets/logo-pro.png" alt="logo-sorteio">
+    <h1>Digite o intervalo e descubra seu numero</h1>
+<main>
+<div>
+   
+    <h2>Sortear um numero</h2>
+    <div>
+    <input class="input-min" type="number" placeholder="Digite o minimo">
+    <input class="input-max" type="number" placeholder="Digite o Maximo">
+    </div>
+    
+    
+    <button onclick="buttonGenerate()">Sortear</button>
+
+    <section>
+        
+        <img class="img-trofeu" src="./assets/trofeu.png" alt="trofeu">
+        <p class="sorteio">Numero Sorteado</p>
+        
+            <p class="number-drawn">0</p>
+        
+    </section>
+    <button class="button-reset" onclick="resetNumber()">Reset</button>
+
+</div>
+
+
+</main>
+
+    
+</body>
+
+<script src="./scripit.js"></script>
+</html>
