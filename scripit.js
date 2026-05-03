@@ -5,7 +5,7 @@ function buttonGenerate(){
     const numberDrawn = document.querySelector('.number-drawn')
 
 
-    const result = Math.floor(Math.random() * (max - min * 1) ) + 1
+    const result = Math.floor(Math.random() * (max - min * 1) ) + min
    
     numberDrawn.innerHTML = (result)
 
